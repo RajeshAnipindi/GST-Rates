@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.titleWrapper {
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  height: 80px;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+}
+
+h5 {
+  color: #292929;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 60px;
+  height: 60px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  word-space: 4em;
+  letter-spacing: 0.05em;
+}
+
+h5 span {
+  position: relative;
+  display: inline-block;
+  transform: translateY(100%);
+  transition: all 0.25s cubic-bezier(0.65, 0, 0.21, 1.47) 0s;
+}
+
+.titleWrapper.ready h5 span {
+  transform: translateY(0%);
+}
+
+h5.first span {
+  position: relative;
+  z-index: 5;
+}
+
+h5.second span {
+  position: relative;
+  z-index: 1;
+}
+
+h5.first span:nth-of-type(1) {
+  transition-delay: 0.02s;
+}
+
+h5.second span:nth-of-type(1) {
+  transition-delay: 0.08s;
+}
+
+h5.first span:nth-of-type(2) {
+  transition-delay: 0.04s;
+}
+
+h5.second span:nth-of-type(2) {
+  transition-delay: 0.11s;
+}
+
+h5.first span:nth-of-type(3) {
+  transition-delay: 0.06s;
+}
+
+h5.second span:nth-of-type(3) {
+  transition-delay: 0.14s;
+}
+
+h5.first span:nth-of-type(4) {
+  transition-delay: 0.08s;
+}
+
+h5.second span:nth-of-type(4) {
+  transition-delay: 0.17s;
+}
+
+h5.first span:nth-of-type(5) {
+  transition-delay: 0.1s;
+}
+
+h5.second span:nth-of-type(5) {
+  transition-delay: 0.2s;
+}
+
+h5.first span:nth-of-type(6) {
+  transition-delay: 0.12s;
+}
+
+h5.second span:nth-of-type(6) {
+  transition-delay: 0.23s;
+}
+
+h5.first span:nth-of-type(7) {
+  transition-delay: 0.14s;
+}
+
+h5.second span:nth-of-type(7) {
+  transition-delay: 0.26s;
+}
+
+h5.first span:nth-of-type(8) {
+  transition-delay: 0.16s;
+}
+
+h5.second span:nth-of-type(8) {
+  transition-delay: 0.29s;
+}
+
+h5.first span:nth-of-type(9) {
+  transition-delay: 0.18s;
+}
+
+h5.second span:nth-of-type(9) {
+  transition-delay: 0.32s;
+}
+
+h5.first span:nth-of-type(10) {
+  transition-delay: 0.2s;
+}
+
+h5.second span:nth-of-type(10) {
+  transition-delay: 0.35s;
+}
+
+h5.first span:nth-of-type(11) {
+  transition-delay: 0.22s;
+}
+
+h5.second span:nth-of-type(11) {
+  transition-delay: 0.38s;
+}
+
+h5.first span:nth-of-type(12) {
+  transition-delay: 0.24s;
+}
+
+h5.second span:nth-of-type(12) {
+  transition-delay: 0.41s;
+}
+
+h5.first span:nth-of-type(13) {
+  transition-delay: 0.26s;
+}
+
+h5.second span:nth-of-type(13) {
+  transition-delay: 0.44s;
+}
+
+h5.first span:nth-of-type(14) {
+  transition-delay: 0.28s;
+}
+
+h5.second span:nth-of-type(14) {
+  transition-delay: 0.47s;
+}
+
+h5.first span:nth-of-type(15) {
+  transition-delay: 0.3s;
+}
+
+h5.second span:nth-of-type(15) {
+  transition-delay: 0.5s;
+}
+
+h5.first span:nth-of-type(16) {
+  transition-delay: 0.32s;
+}
+
+h5.second span:nth-of-type(16) {
+  transition-delay: 0.53s;
+}
+
+h5.first span:nth-of-type(17) {
+  transition-delay: 0.34s;
+}
+
+h5.second span:nth-of-type(17) {
+  transition-delay: 0.56s;
+}
+
+h5.first span:nth-of-type(18) {
+  transition-delay: 0.36s;
+}
+
+h5.second span:nth-of-type(18) {
+  transition-delay: 0.59s;
+}
+
+h5.first span:nth-of-type(19) {
+  transition-delay: 0.38s;
+}
+
+h5.second span:nth-of-type(19) {
+  transition-delay: 0.62s;
+}
+
+.titleWrapper.ready:hover h5.first span {
+  transform: translateY(-100%);
+}
+
+.titleWrapper.ready:hover h5.second span {
+  transform: translateY(-100%);
+}
